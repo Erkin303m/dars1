@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "infos",
+  "info": {
+    "singularName": "info",
+    "pluralName": "infos",
+    "displayName": "info",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nomi": {
+      "type": "string"
+    },
+    "rasm": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "narxi": {
+      "type": "biginteger"
+    },
+    "qisqacha": {
+      "type": "text"
+    },
+    "bet": {
+      "type": "string"
+    }
+  }
+}

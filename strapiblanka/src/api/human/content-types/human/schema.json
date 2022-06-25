@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "humans",
+  "info": {
+    "singularName": "human",
+    "pluralName": "humans",
+    "displayName": "human",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "number": {
+      "type": "string"
+    },
+    "password": {
+      "type": "string"
+    },
+    "password2": {
+      "type": "string"
+    }
+  }
+}
